@@ -1,0 +1,118 @@
+-- USE movie_base;
+-- 
+-- Actor data
+-- 
+-- INSERT INTO Actor VALUES (
+-- 	'0001', 'Ayemobola', 'SatGuruMaTolu','M');
+-- INSERT INTO Actor VALUES (
+-- 	'0002', 'Ovuefe', 'MongoDB', 'M');
+-- INSERT INTO Actor VALUES (
+-- 	'0003', 'Victor', 'StubbornChild', 'M');
+-- INSERT INTO Actor VALUES (
+-- 	'0004', 'Ample', 'BabaJoshua', 'M');
+-- INSERT INTO Actor VALUES (
+-- 	'0005', 'Pastor', 'SeniorBlessing', 'M');
+--     
+-- Director Data
+-- 
+-- INSERT INTO Director VALUES (
+-- 	'1000010', 'Peter', 'Pan');
+-- INSERT INTO Director VALUES (
+-- 	'1000011', 'John', 'Doe');
+-- INSERT INTO Director VALUES (
+-- 	'1000012', 'Tunde', 'Kilani');
+-- INSERT INTO Director VALUES (
+-- 	'1000013', 'Director', 'Q');
+-- INSERT INTO Director VALUES (
+-- 	'1000014', 'Wizard', 'Calidad');
+--     
+-- Genre Data
+-- 
+-- INSERT INTO Genre VALUES (
+-- 	1, 'Horror and Thriller');
+-- INSERT INTO Genre VALUES (
+-- 	2, 'Romance');
+-- INSERT INTO Genre VALUES (
+-- 	3, 'Action');
+-- INSERT INTO Genre VALUES (
+-- 	4, 'Fantasy');
+-- INSERT INTO Genre VALUES (
+-- 	5, 'Adventure and Epic');
+--     
+-- Movie Data
+-- 
+-- INSERT INTO Movie VALUES (
+-- 	11111101, 'Koto Aiye', '1999', '0500','Yoruba','1999-01-01', 'NGR');
+-- INSERT INTO Movie VALUES (
+-- 	11111102, 'Eyes Wide Shut', '1998', '2200','English','1998-11-08', 'USA');
+-- INSERT INTO Movie VALUES (
+-- 	11111103, 'Count of Monte Cristo', '2002', '1200','English','2002-01-11', 'USA');
+-- INSERT INTO Movie VALUES (
+-- 	11111104, 'Witches of East End', '2003', '1700','English','2003-10-24', 'NZL');
+-- INSERT INTO Movie VALUES (
+-- 	11111105, 'American Beauty', '1999', '1300','English','1999-01-01', 'NGR');
+--     
+-- MovieCast Data
+-- INSERT INTO MovieCast VALUES (
+-- 	'0001', '11111101','Lead Actor');
+-- INSERT INTO MovieCast VALUES (
+-- 	'0003', '11111103','Supporting Role');
+-- INSERT INTO MovieCast VALUES (
+-- 	'0002', '11111104','Waka Pass');
+-- INSERT INTO MovieCast VALUES (
+-- 	'0004', '11111102','Villain');
+-- INSERT INTO MovieCast VALUES (
+-- 	'0005', '11111105','Smeagle');
+-- 
+-- MovieDirection Data
+-- 
+-- INSERT INTO MovieDirection VALUES (
+-- 	1000010, 11111101);
+-- INSERT INTO MovieDirection VALUES (
+-- 	1000011, 11111103);
+-- INSERT INTO MovieDirection VALUES (
+-- 	1000012, 11111102);
+-- INSERT INTO MovieDirection VALUES (
+-- 	1000014, 11111104);
+-- INSERT INTO MovieDirection VALUES (
+-- 	1000014, 11111105);
+--     
+-- MovieGenre Data
+-- 
+-- INSERT INTO MovieGenre VALUES (
+-- 	'11111103', 2);
+-- INSERT INTO MovieGenre VALUES (
+-- 	11111101, 1);
+-- INSERT INTO MovieGenre VALUES (
+-- 	11111102, 2);
+-- INSERT INTO MovieGenre VALUES (
+-- 	11111104, 4);
+-- INSERT INTO MovieGenre VALUES (
+-- 	11111105, 5);
+-- 
+--     
+-- Reviewer Data
+-- INSERT INTO Reviewer VALUES (
+-- 	'111','Parrot');
+-- INSERT INTO Reviewer VALUES (
+-- 	'121','NightWatch');
+-- INSERT INTO Reviewer VALUES (
+-- 	'131','Ountrending');
+-- INSERT INTO Reviewer VALUES (
+-- 	'141','Rotten Tomatoes');
+-- INSERT INTO Reviewer VALUES (
+-- 	'151','IDMB');
+
+ -- Rating Data
+ INSERT INTO Rating VALUES (
+ 	'11111103', 111, 7, 5); 
+ INSERT INTO Rating VALUES (
+ 	'11111101', 121, 0, 0);
+ INSERT INTO Rating VALUES (
+	'11111104', 131, 3, 1);
+ INSERT INTO Rating VALUES (
+ 	'11111102', 141, 7, 0); 
+ INSERT INTO Rating VALUES (
+	'11111105', 151, 4, 3);  
+-- 
+-- 
